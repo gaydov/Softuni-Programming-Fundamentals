@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace FoldandSum
 {
@@ -20,7 +18,7 @@ namespace FoldandSum
 
             // Creating 2 arrays that will hold the left and right k elements
             int[] left = new int[k];
-            int[] rigth = new int[k];
+            int[] right = new int[k];
 
             // Populating both arrays:
             for (int i = 0; i < left.Length; i++)
@@ -28,14 +26,14 @@ namespace FoldandSum
                 left[i] = nums[i];
             }
 
-            for (int i = 0; i < rigth.Length; i++)
+            for (int i = 0; i < right.Length; i++)
             {
-                rigth[i] = nums[nums.Length - k + i];
+                right[i] = nums[nums.Length - k + i];
             }
 
             // Reversing both arrays:
             Array.Reverse(left);
-            Array.Reverse(rigth);
+            Array.Reverse(right);
 
             // Creating an array that will contain the left and right parts combined:
             int[] foldedRow = new int[2 * left.Length];
@@ -48,7 +46,7 @@ namespace FoldandSum
                 }
                 else
                 {
-                    foldedRow[i] = rigth[i - rigth.Length];
+                    foldedRow[i] = right[i - right.Length];
                 }
             }
 
