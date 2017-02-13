@@ -19,6 +19,7 @@ namespace CenterPoint
         {
             double distancePoint1 = Math.Sqrt(Math.Pow((x1 - 0), 2) + Math.Pow((y1 - 0), 2));
             double distancePoint2 = Math.Sqrt(Math.Pow((x2 - 0), 2) + Math.Pow((y2 - 0), 2));
+
             if (distancePoint1 < distancePoint2)
             {
                 Console.Write("({0}, {1})", x1, y1);

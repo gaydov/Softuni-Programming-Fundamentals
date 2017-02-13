@@ -7,6 +7,7 @@ namespace PrimeChecker
         public static void Main()
         {
             long number = long.Parse(Console.ReadLine());
+
             IsPrime(number);
 
         }
@@ -14,6 +15,7 @@ namespace PrimeChecker
         private static void IsPrime(long num)
         {
             bool isPrime = true;
+
             if (num == 0 || num == 1)
             {
                 isPrime = false;
@@ -28,6 +30,7 @@ namespace PrimeChecker
                     }
                 }
             }
+
             Console.WriteLine(isPrime);
         }
     }

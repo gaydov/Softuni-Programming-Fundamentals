@@ -35,6 +35,7 @@ namespace GeometryCalculator
                     area = Math.PI * circleRadius * circleRadius;
                     break;
             }
+
             Console.WriteLine("{0:F2}", area);
         }
     }

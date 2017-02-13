@@ -10,17 +10,18 @@ namespace PrimesinGivenRange
             int startNumber = int.Parse(Console.ReadLine());
             int endNumber = int.Parse(Console.ReadLine());
             List<int> primeNumbers = PrimesInRange(startNumber, endNumber);
+
             Console.WriteLine(string.Join(", ", primeNumbers));
         }
 
-        private static List<int> PrimesInRange(int startNum, int endNum)
+        public static List<int> PrimesInRange(int startNum, int endNum)
         {
             List<int> primesList = new List<int>(); // creating List of integers that will contain the prime integers found
 
-            // creating for loop checking every int in the range:
+            // creating for loop checking every integer in the range:
             for (int currentNum = startNum; currentNum <= endNum; currentNum++)
             {
-                bool isPrime = true; // by default the number is considered prime
+                bool isPrime = true; // the number is considered prime by default
 
                 if (currentNum == 0 || currentNum == 1)
                 {
@@ -42,6 +43,7 @@ namespace PrimesinGivenRange
                     primesList.Add(currentNum); // if the number is prime we add it to the list
                 }
             }
+
             return primesList;
         }
     }

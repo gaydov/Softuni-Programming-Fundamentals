@@ -9,6 +9,7 @@ namespace Factorial
         {
             int N = int.Parse(Console.ReadLine());
             BigInteger factorialN = GetFactorial(N);
+
             Console.WriteLine(factorialN);
         }
 

@@ -9,6 +9,7 @@ namespace MultiplyEvensbyOdds
             int number = int.Parse(Console.ReadLine());
             int sumOdds = GetSumOfOddDigits(number);
             int sumEvens = GetSumOfEvenDigits(number);
+
             Console.WriteLine(sumOdds * sumEvens);
         }
 
@@ -16,6 +17,7 @@ namespace MultiplyEvensbyOdds
         {
             number = Math.Abs(number);
             int sumEvens = 0;
+
             for (int i = 0; number > 0; i++)
             {
                 int digit = number % 10;
@@ -33,9 +35,11 @@ namespace MultiplyEvensbyOdds
         {
             number = Math.Abs(number);
             int sumOdds = 0;
+
             for (int i = 0; number > 0; i++)
             {
                 int digit = number % 10; 
+
                 if (digit % 2 != 0)
                 {
                     sumOdds += digit;

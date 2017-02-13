@@ -10,24 +10,26 @@ namespace FibonacciNumbers
             Fib(n);
         }
 
-        private static void Fib(int NthNum)
+        public static void Fib(int N)
         {
-            if (NthNum == 0 || NthNum == 1)
+            if (N == 0 || N == 1)
             {
                 Console.WriteLine(1);
             }
             else
             {
-                int previous1 = 1;
-                int previous2 = 1;
-                int current = 0;
-                for (int i = 2; i <= NthNum; i++)
+                int firstNum = 1;
+                int secondNum = 1;
+                int currentNum = 0;
+
+                for (int i = 2; i <= N; i++)
                 {
-                    current = previous1 + previous2;
-                    previous1 = previous2;
-                    previous2 = current;
+                    currentNum = firstNum + secondNum;
+                    firstNum = secondNum;
+                    secondNum = currentNum;
                 }
-                Console.WriteLine(current);
+
+                Console.WriteLine(currentNum);
             }
         }
     }

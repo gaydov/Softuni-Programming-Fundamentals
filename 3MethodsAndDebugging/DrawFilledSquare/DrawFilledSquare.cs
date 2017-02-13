@@ -21,6 +21,7 @@ namespace DrawFilledSquare
             for (int row = 1; row <= squareSide - 2; row++)
             {
                 Console.Write('-');
+
                 for (int col = 1; col <= squareSide - 1; col++)
                 {
                     Console.Write("\\/");

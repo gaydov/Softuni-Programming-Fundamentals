@@ -8,13 +8,15 @@ namespace EnglishNameofLastDigit
         {
             long number = long.Parse(Console.ReadLine());
             string lastDigitName = GetLastDigitName(number);
+
             Console.WriteLine(lastDigitName);
         }
 
-        private static string GetLastDigitName(long num)
+        public static string GetLastDigitName(long num)
         {
             num = Math.Abs(num) % 10;
             string lastDigit = "";
+
             switch (num)
             {
                 case 0:
@@ -50,6 +52,7 @@ namespace EnglishNameofLastDigit
                 default:
                     break;
             }
+
             return lastDigit;
         }
     }

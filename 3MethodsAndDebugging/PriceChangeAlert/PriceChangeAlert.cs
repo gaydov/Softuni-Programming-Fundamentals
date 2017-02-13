@@ -2,7 +2,7 @@
 
 class PriceChangeAlert
 {
-    static void Main()
+    public static void Main()
     {
         int numOfPrices = int.Parse(Console.ReadLine());
         double threshold = double.Parse(Console.ReadLine());
@@ -19,10 +19,11 @@ class PriceChangeAlert
         }
     }
 
-    private static string GetPriceEvaluation(double currentPrice, double previousPrice, double diffCurrentPrevious, bool isSignificant)
+    public static string GetPriceEvaluation(double currentPrice, double previousPrice, double diffCurrentPrevious, bool isSignificant)
 
     {
         string messageText = "";
+
         if (diffCurrentPrevious == 0)
         {
             messageText = string.Format("NO CHANGE: {0}", currentPrice);
@@ -39,9 +40,10 @@ class PriceChangeAlert
         {
             messageText = string.Format("PRICE DOWN: {0} to {1} ({2:F2}%)", previousPrice, currentPrice, (diffCurrentPrevious * 100));
         }
+
         return messageText;
     }
-    private static bool CheckSignificance(double difference, double thresholdValue)
+    public static bool CheckSignificance(double difference, double thresholdValue)
     {
         if (Math.Abs(difference) >= thresholdValue)
         {
@@ -53,7 +55,7 @@ class PriceChangeAlert
         }
     }
 
-    private static double GetDifference(double currentValue, double nextValue)
+    public static double GetDifference(double currentValue, double nextValue)
     {
         double result = (nextValue - currentValue) / currentValue;
         return result;

@@ -10,7 +10,7 @@ namespace HelloName
             HelloGreeting(inputName);
         }
 
-        static void HelloGreeting(string name)
+        public static void HelloGreeting(string name)
         {
             Console.WriteLine("Hello, {0}!", name);
         }

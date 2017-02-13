@@ -7,6 +7,7 @@ namespace GreaterofTwoValues
         public static void Main()
         {
             string type = Console.ReadLine();
+
             if (type == "int")
             {
                 int firstValue = int.Parse(Console.ReadLine());
