@@ -12,7 +12,7 @@ namespace PrimeChecker
 
         }
 
-        private static void IsPrime(long num)
+        public static void IsPrime(long num)
         {
             bool isPrime = true;
 
