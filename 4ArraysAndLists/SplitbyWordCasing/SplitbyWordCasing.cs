@@ -8,45 +8,48 @@ namespace SplitbyWordCasing
     {
         public static void Main()
         {
-            List<string> input = Console.ReadLine().Split(',', ';', ':', '.', '!', '(', ')', '"', '\'', '\\', '/', '[', ']', ' ').ToList();
+            char[] delimiters = { ',', ';', ':', '.', '!', '(', ')', '"', '\'', '\\', '/', '[', ']', ' ' };
+
+            List<string> input = Console.ReadLine().Split(delimiters).ToList();
+
             List<string> lowerCase = new List<string>();
             List<string> upperCase = new List<string>();
             List<string> mixed = new List<string>();
 
             foreach (string word in input)
             {
-                if (word == string.Empty)
+                if (word.Equals(string.Empty))
                 {
                     continue;
                 }
 
-                int sumLower = 0;
-                int sumUpper = 0;
+                int lowerSum = 0;
+                int upperSum = 0;
 
                 foreach (char letter in word)
                 {
 
                     if (letter >= 'a' && letter <= 'z')
                     {
-                        sumLower++;
+                        lowerSum++;
                     }
                     else if (letter >= 'A' && letter <= 'Z')
                     {
-                        sumUpper++;
+                        upperSum++;
                     }
                     else
                     {
                         // If the letter is not lower or upper case then we assign to the sums value of 1 in order the word to go to the mixed list:
-                        sumLower = 1;
-                        sumUpper = 1;
+                        lowerSum = 1;
+                        upperSum = 1;
                     }
                 }
 
-                if (sumLower == 0)
+                if (lowerSum == 0)
                 {
                     upperCase.Add(word);
                 }
-                else if (sumUpper == 0)
+                else if (upperSum == 0)
                 {
                     lowerCase.Add(word);
                 }

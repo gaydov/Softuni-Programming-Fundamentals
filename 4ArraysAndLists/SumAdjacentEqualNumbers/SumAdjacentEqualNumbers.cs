@@ -27,7 +27,6 @@ namespace SumAdjacentEqualNumbers
             }
 
             Console.WriteLine(string.Join(" ", nums));
-
         }
     }
 }
