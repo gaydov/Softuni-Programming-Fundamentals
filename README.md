@@ -1,4 +1,4 @@
-#<p align="left">Softuni-Programming-Fundamentals<p>[Softuni Logo](https://www.dropbox.com/home?preview=softuni-2.0.jpg"Softuni Logo")
+#<p align="left">Softuni-Programming-Fundamentals<p>
 
 Containing the tasks from Softuni's course Programming Fundamentals.
 
