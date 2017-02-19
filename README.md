@@ -1,4 +1,5 @@
-# Softuni-Programming-Fundamentals
+#<p align="center">Softuni-Programming-Fundamentals<p>
+
 Containing the tasks from Softuni's course Programming Fundamentals.
 
 The repository was recreated on Jan 27th 2017 in order to include the whole projects and not the .cs files only. Also .gitignore file was added.
@@ -18,3 +19,24 @@ The course covers:
 - using Regular Expressions;
 - basics of working with classes and objects, using API classes and defining simple classes;
 
+## Tasks
+
+1. [Git, GitHub, Debugging, Searching](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/1GitGitHubDebuggingSearching)
+2. [Data Types and Variables](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/2DataTypesAndVariables)
+3. [Methods and Debugging](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/3MethodsAndDebugging)
+4. [Arrays and Lists](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/4ArraysAndLists)
+5. [Dictionaries, Lambda and LINQ](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/5DictionariesAndLINQ)
+6. [Objects and Classes](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/6Objects-and-Classes)
+7. [Files and Directories](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/7FilesAndDirectories)
+8. [Strings and Regex](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/8Strings-and-Regex)
+
+## Exams
+
+* [January 06th 2016](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/Exams/January-2016-6th)
+* [Sample Exam II - June 2016](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/Exams/June%202016%20sample%202)
+* [Sample Exam I - June 2016](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/Exams/June%202016)
+* [Exam - 12 June 2016](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/Exams/June12th2016)
+* [Exam - 23 October 2016](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/Exams/October-2016-23th)
+* [Sample Exam I - October 2016](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/Exams/October-2016-Sample-I)
+* [Sample Exam II - October 2016](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/Exams/October-2016-Sample-II)
+* [Exam - 11 September 2016](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/Exams/September-11th-2016)
