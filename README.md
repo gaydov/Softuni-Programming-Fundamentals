@@ -1,4 +1,4 @@
-#<p align="left">Softuni-Programming-Fundamentals<a href="https://softuni.bg/" target="_blank"><img src="https://raw.githubusercontent.com/gaydov/Softuni-Programming-Fundamentals/master/Exams/June%202016%20sample%202/SoftUniAirline/img/softuniLogo.PNG" width="200" align="right"></a><p>
+#<p align="left">Softuni-Programming-Fundamentals<a href="https://softuni.bg/" target="_blank"><img src="https://raw.githubusercontent.com/gaydov/Softuni-Programming-Fundamentals/master/Exams/June%202016%20sample%202/SoftUniAirline/img/softuniLogo.PNG" width="200" align="right" alt="Softuni logo"></a><p>
 
 Containing the tasks from Softuni's course Programming Fundamentals.
 
