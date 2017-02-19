@@ -42,3 +42,5 @@ The course covers:
 * [Sample Exam I - October 2016](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/Exams/October-2016-Sample-I)
 * [Sample Exam II - October 2016](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/Exams/October-2016-Sample-II)
 * [Exam - 11 September 2016](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/Exams/September-11th-2016)
+
+### [Exams' descriptions](https://drive.google.com/open?id=0B0i5AcwcQwXJRTU5Ni1HbFEwVmM)
