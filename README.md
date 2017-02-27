@@ -38,6 +38,7 @@ The course covers:
 * [Exam 11th September 2016](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/Exams/Exam-11th-September-2016)
 * [Exam 12th June 2016](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/Exams/Exam-12th-June-2016)
 * [Exam 23rd October 2016](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/Exams/Exam-23rd-October-2016)
+* [Exam 26th February 2017](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/Exams/Exam-26th-February-2017)
 * [Sample Exam I - June 2016](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/Exams/Sample-Exam-I-June-2016)
 * [Sample Exam I - October 2016](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/Exams/Sample-Exam-I-October-2016)
 * [Sample Exam II - June 2016](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/Exams/Sample-Exam-II-June-2016)
