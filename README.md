@@ -30,8 +30,6 @@ The course covers:
 7. [Files and Directories](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/7FilesAndDirectories)
 8. [Strings and Regex](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/8Strings-and-Regex)
 
-### [Tasks' descriptions](https://drive.google.com/open?id=0B0i5AcwcQwXJX3FEVGNkOTJOa28)
-
 ## Exams
 
 * [Exam 6th January 2017](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/Exams/Exam-06th-Jan-2017)
@@ -43,5 +41,3 @@ The course covers:
 * [Sample Exam I - October 2016](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/Exams/Sample-Exam-I-October-2016)
 * [Sample Exam II - June 2016](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/Exams/Sample-Exam-II-June-2016)
 * [Sample Exam II - October 2016](https://github.com/gaydov/Softuni-Programming-Fundamentals/tree/master/Exams/Sample-Exam-II-October-2016)
-
-### [Exams' descriptions](https://drive.google.com/open?id=0B0i5AcwcQwXJRTU5Ni1HbFEwVmM)
